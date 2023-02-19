@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SelectAmongUsFolder" xml:space="preserve">
+    <value>Select Among Us folder</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Among Us Toolbox</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegionIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RegionIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RemoveIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpdateIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AppIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsButton" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="AmongUsFolderGroup" xml:space="preserve">
+    <value>Among Us game folder</value>
+  </data>
+  <data name="EnableDebugMode" xml:space="preserve">
+    <value>Enable debug mode (requires application restart)</value>
+  </data>
+  <data name="DirectoryNotWritableMessage" xml:space="preserve">
+    <value>Among Us Mods Manager don't have write access in {0}. Please select another folder or open the mods manager as administrator.</value>
+  </data>
+  <data name="DirectoryNotWritableTitle" xml:space="preserve">
+    <value>Directory not writable</value>
+  </data>
+  <data name="RegionsTitle" xml:space="preserve">
+    <value>Manage private servers</value>
+  </data>
+  <data name="ModsTitle" xml:space="preserve">
+    <value>Manage mods</value>
+  </data>
+  <data name="RegionDeletionTitle" xml:space="preserve">
+    <value>Private server deletion</value>
+  </data>
+  <data name="RegionDeletionMessage" xml:space="preserve">
+    <value>Do you really want to delete the {0} private server?</value>
+  </data>
+  <data name="ApplyRegionsChangesText" xml:space="preserve">
+    <value>Update private servers</value>
+  </data>
+  <data name="AddPrivateServerButtonText" xml:space="preserve">
+    <value>Add private server</value>
+  </data>
+  <data name="PrivateServerNameLabel" xml:space="preserve">
+    <value>Private server name</value>
+  </data>
+  <data name="HostLabel" xml:space="preserve">
+    <value>Hostname/IP address</value>
+  </data>
+  <data name="DisableSslLabel" xml:space="preserve">
+    <value>Disable SSL/TLS</value>
+  </data>
+  <data name="ChooseColorButton" xml:space="preserve">
+    <value>Change the color</value>
+  </data>
+  <data name="UpdateRegionButtonText" xml:space="preserve">
+    <value>Update private server</value>
+  </data>
+  <data name="AddRegionButtonText" xml:space="preserve">
+    <value>Add private server</value>
+  </data>
+  <data name="AddRegionTitle" xml:space="preserve">
+    <value>Add private server</value>
+  </data>
+  <data name="UpdateRegionTitle" xml:space="preserve">
+    <value>Update private server</value>
+  </data>
+  <data name="SelectFolderLabel" xml:space="preserve">
+    <value>Select your Among Us game folder</value>
+  </data>
+  <data name="ApplyModButtonText" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="AddModButtonText" xml:space="preserve">
+    <value>Download a mod</value>
+  </data>
+  <data name="DownloadModButton" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="DownloadModTitle" xml:space="preserve">
+    <value>Download a mod</value>
+  </data>
+  <data name="RepoLabel" xml:space="preserve">
+    <value>Mod repository</value>
+  </data>
+  <data name="DecompressionInProgress" xml:space="preserve">
+    <value>Decompression in progress</value>
+  </data>
+  <data name="UnableToFindRepository" xml:space="preserve">
+    <value>Unable to find the following repository:</value>
+  </data>
+  <data name="UnableToFindAsset" xml:space="preserve">
+    <value>Unable to find the latest resource in the following repository:</value>
+  </data>
+  <data name="UnableToFindRepositoryTitle" xml:space="preserve">
+    <value>Repository not found</value>
+  </data>
+  <data name="UnableToFindAssetTitle" xml:space="preserve">
+    <value>Asset not found</value>
+  </data>
+  <data name="Extracting" xml:space="preserve">
+    <value>Extracting</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="DownloadStatus" xml:space="preserve">
+    <value>Download status</value>
+  </data>
+  <data name="ModDeletionErrorGameRunning" xml:space="preserve">
+    <value>Unable to remove this mod because Among Us game is open.</value>
+  </data>
+  <data name="ModDeletionErrorGameRunningTitle" xml:space="preserve">
+    <value>Operation not permitted</value>
+  </data>
+  <data name="InstallErrorGameRunning" xml:space="preserve">
+    <value>Unable to change mod because Among Us game is open.</value>
+  </data>
+  <data name="InstallErrorGameRunningTitle" xml:space="preserve">
+    <value>Operation not permitted</value>
+  </data>
+  <data name="ParseRepositoryError" xml:space="preserve">
+    <value>Unable to parse repository: {0}. Please use Github URL or owner/repository</value>
+  </data>
+  <data name="ParseRepositoryErrorTitle" xml:space="preserve">
+    <value>Bad repository format</value>
+  </data>
+</root>

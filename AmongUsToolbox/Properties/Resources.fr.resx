@@ -1,0 +1,137 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="SelectAmongUsFolder" xml:space="preserve">
+        <value>Sélectionner le dossier Among Us</value>
+    </data>
+    <data name="SettingsButton" xml:space="preserve">
+        <value>Paramètres</value>
+    </data>
+    <data name="Settings" xml:space="preserve">
+        <value>Paramètres</value>
+    </data>
+    <data name="AmongUsFolderGroup" xml:space="preserve">
+        <value>Dossier du jeu Among Us</value>
+    </data>
+    <data name="EnableDebugMode" xml:space="preserve">
+        <value>Activer le débogage (requiert le redémarrage de l'application)</value>
+    </data>
+    <data name="DirectoryNotWritableMessage" xml:space="preserve">
+        <value>Le gestionnaire de mods Among Us n'a pas les droits d'écriture dans le dossier {0}. Veuillez sélectionner un autre dossier ou ouvrir le gestionnaire de mods en tant qu'administrateur.</value>
+    </data>
+    <data name="DirectoryNotWritableTitle" xml:space="preserve">
+        <value>Dossier non accessible en écriture</value>
+    </data>
+    <data name="RegionsTitle" xml:space="preserve">
+        <value>Gestion des serveurs privés</value>
+    </data>
+    <data name="ModsTitle" xml:space="preserve">
+        <value>Gestion des mods</value>
+    </data>
+    <data name="RegionDeletionTitle" xml:space="preserve">
+        <value>Supression d'un serveur privé</value>
+    </data>
+    <data name="RegionDeletionMessage" xml:space="preserve">
+        <value>Voulez-vous réellement supprimer le serveur privé {0} ?</value>
+    </data>
+    <data name="ApplyRegionsChangesText" xml:space="preserve">
+        <value>Mettre à jour les serveurs privés</value>
+    </data>
+    <data name="AddPrivateServerButtonText" xml:space="preserve">
+        <value>Ajouter un serveur privé</value>
+    </data>
+    <data name="PrivateServerNameLabel" xml:space="preserve">
+        <value>Nom du serveur privé</value>
+    </data>
+    <data name="HostLabel" xml:space="preserve">
+        <value>Nom d'hôte/Adresse IP</value>
+    </data>
+    <data name="DisableSslLabel" xml:space="preserve">
+        <value>Désactiver le SSL/TLS</value>
+    </data>
+    <data name="ChooseColorButton" xml:space="preserve">
+        <value>Changer la couleur</value>
+    </data>
+    <data name="UpdateRegionButtonText" xml:space="preserve">
+        <value>Modifier le serveur privé</value>
+    </data>
+    <data name="AddRegionButtonText" xml:space="preserve">
+        <value>Ajouter le serveur privé</value>
+    </data>
+    <data name="AddRegionTitle" xml:space="preserve">
+        <value>Ajouter un serveur privé</value>
+    </data>
+    <data name="UpdateRegionTitle" xml:space="preserve">
+        <value>Modifier un serveur privé</value>
+    </data>
+    <data name="SelectFolderLabel" xml:space="preserve">
+        <value>Sélectionner votre dossier de jeu Among Us</value>
+    </data>
+    <data name="ApplyModButtonText" xml:space="preserve">
+        <value>Installer</value>
+    </data>
+    <data name="AddModButtonText" xml:space="preserve">
+        <value>Télécharger un mod</value>
+    </data>
+    <data name="DownloadModButton" xml:space="preserve">
+        <value>Télécharger</value>
+    </data>
+    <data name="DownloadModTitle" xml:space="preserve">
+        <value>Télécharger un mod</value>
+    </data>
+    <data name="RepoLabel" xml:space="preserve">
+        <value>Déoôt du mod</value>
+    </data>
+    <data name="DecompressionInProgress" xml:space="preserve">
+        <value>Décompression en cours</value>
+    </data>
+    <data name="UnableToFindRepository" xml:space="preserve">
+        <value>Impossible de trouver le dépôt suivant :</value>
+    </data>
+    <data name="UnableToFindAsset" xml:space="preserve">
+        <value>Impossible de trouver la dernière ressource dans le dépôt suivant :</value>
+    </data>
+    <data name="UnableToFindRepositoryTitle" xml:space="preserve">
+        <value>Dépôt introuvable</value>
+    </data>
+    <data name="UnableToFindAssetTitle" xml:space="preserve">
+        <value>Resource introuvable</value>
+    </data>
+    <data name="Extracting" xml:space="preserve">
+        <value>Extraction</value>
+    </data>
+    <data name="Download" xml:space="preserve">
+        <value>Téléchargement</value>
+    </data>
+    <data name="DownloadStatus" xml:space="preserve">
+        <value>Statut du téléchargement</value>
+    </data>
+    <data name="ModDeletionErrorGameRunningTitle" xml:space="preserve">
+        <value>Opération non permise</value>
+    </data>
+    <data name="ModDeletionErrorGameRunning" xml:space="preserve">
+        <value>Impossible de supprimer ce mod car le jeu Among Us est ouvert.</value>
+    </data>
+    <data name="InstallErrorGameRunningTitle" xml:space="preserve">
+        <value>Opération non permise</value>
+    </data>
+    <data name="InstallErrorGameRunning" xml:space="preserve">
+        <value>Impossible de changer de mod car le jeu Among Us est ouvert.</value>
+    </data>
+    <data name="ParseRepositoryErrorTitle" xml:space="preserve">
+        <value>Format du dépôt incorrect</value>
+    </data>
+    <data name="ParseRepositoryError" xml:space="preserve">
+        <value>Impossible d'analyser le dépôt: {0}. Veuillez utiliser une URL Github ou propriétaire/dépôt</value>
+    </data>
+</root>
